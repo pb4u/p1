@@ -6,7 +6,8 @@
 
 		<title>RevealJS Presentation</title>
 
-		<link rel="stylesheet" href="css/reveal.css">
+		<!--link rel="stylesheet" href="css/reveal.css"-->
+		<link rel="stylesheet" href="css/reveal.min.css">
 		<link rel="stylesheet" href="css/theme/black.css">
 
 		<!-- Theme used for syntax highlighting of code -->
@@ -22,7 +23,7 @@
 		</script>
 	</head>
 	<body>
-		<div class="reveal">
+		<div class="reveal concave">
 			<div class="slides">
 				<section>
 					<h1>About My Product</h1>
@@ -44,12 +45,14 @@
 		</div>
 
 		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.js"></script>
+		<!-- script src="js/reveal.js"></script -->
+		<script src="js/reveal.min.js"></script>
 
 		<script>
 			// More info https://github.com/hakimel/reveal.js#configuration
 			Reveal.initialize({
-				history: true,
+				//history: true,
+				controls: false,
 
 				// More info https://github.com/hakimel/reveal.js#dependencies
 				dependencies: [
