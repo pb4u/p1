@@ -26,8 +26,8 @@
 		<div class="reveal">
 			<div class="state-background"></div>
 			<div class="slides">
-			<section class="present" style="display: block;">
-					<!--h1>CSS Shaders</h1>
+			<!--section class="present" style="display: block;">
+					<h1>CSS Shaders</h1>
 					<p>
 						Slide Transition Method:<br>
 						<a id="cube" href="index.html?transition=cube" class="roll"><span data-title="Cube">Cube</span></a> -
@@ -39,20 +39,20 @@
 						<a id="tileflip" href="index.html?transition=tileflip" class="roll"><span data-title="Tile Flip">Tile Flip</span></a>
 					</p>
 					<p style="font-size:small">Note: Dissolve, Burn &amp; Tile Flip are only viewable in Chrome Canary with CSS Shaders enabled</p>
-				</section>
-				<section-->
+				</section-->
+				<section>
 					<h1>About My Product</h1>
 					<p>My product discussed here</p>
 				</section>
 
-				<!--section id="show-a-link"-->
-				<section class="future" style="display: block;">
+				<ection id="show-a-link"-->
+				<!--ssection class="future" style="display: block;"-->
 					<h1>Show a live link</h1>
 					<p>Slide 2 discussed here</p>
 					<p>See <a href="http://www.htmlcheats.com">https://www.algolia.com/</a><p>
 				</section>
 
-				<section class="future" style="display: block;">
+				<section> <!--class="future" style="display: block;"-->
 					<h1>Slide 3</h1>
 					<p>How does one revisit an arbitrary slide in code?</p>
 					<p>Visit internal slide<a href="#/show-a-link"> 2</a>
@@ -72,7 +72,7 @@
 				controls: true,
 				progress: true,
 				history: true,
-				theme: Reveal.getQueryHash().theme || 'default', // available themes are in /css/theme
+				//theme: Reveal.getQueryHash().theme || 'default', // available themes are in /css/theme
 				transition: 'concave',
 
 				// More info https://github.com/hakimel/reveal.js#dependencies
@@ -81,11 +81,11 @@
 					{ src: 'plugin/markdown/markdown.js' },
 					{ src: 'plugin/notes/notes.js', async: true },
 					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
-					{ src: 'lib/js/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'lib/js/data-markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: '/socket.io/socket.io.js', async: true, condition: function() { return window.location.host === 'localhost:1947'; } },
-					{ src: 'plugin/speakernotes/client.js', async: true, condition: function() { return window.location.host === 'localhost:1947'} },
+					//{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					//{ src: 'lib/js/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					//{ src: 'lib/js/data-markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					//{ src: '/socket.io/socket.io.js', async: true, condition: function() { return window.location.host === 'localhost:1947'; } },
+					//{ src: 'plugin/speakernotes/client.js', async: true, condition: function() { return window.location.host === 'localhost:1947'} },
 				]
 			});
 		</script>
